@@ -1,4 +1,7 @@
-var num = 15;
-if (num >= 10) {
-    console.log("el número es mayor que 10");
+var name = "Bruce";
+if (name != "Bruce") {
+    console.log("¿Cuál es tu nombre?");
+} 
+else {
+    console.log("Hola, Bruce!");
 }
