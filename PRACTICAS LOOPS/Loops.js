@@ -1,3 +1,3 @@
-for (var a =copy 0; a < 8; a++) {   
-    console.log(a);
+for (var b = 10; b < 100; b += 10) {   
+    console.log(b);
 }
