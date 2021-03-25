@@ -1,3 +1,4 @@
-for (var c = 16; c > 0; c--) {
-    console.log(c);
+for (var d = 0; d < 100; d++) {
+    console.log(d);
+    d += 5;
 }
