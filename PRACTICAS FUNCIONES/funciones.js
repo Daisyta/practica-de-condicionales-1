@@ -1,6 +1,9 @@
-function a(n) {
-    console.log('n es', n);
-    return n+15;
+var z = 15;
+console.log(z);
+function a(z){
+   console.log(z);   
+   return z;
 }
-var x = a(3);
-console.log('x es', x);
+var b = a(10);
+console.log(b);
+console.log(z);
