@@ -1,4 +1,6 @@
-function a() {
+function b() {
     console.log('hola');
+    return 15;
 }
-console.log('Dojo');
+var x = b();
+console.log('x es', x);
