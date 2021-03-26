@@ -1,9 +1,9 @@
-var z = 15;
-console.log(z);
-function a(z){
-   console.log(z);   
-   return z;
+var c = 15;
+console.log(c);
+function d(c){
+   console.log(c);   
+   return c*2;
 }
-var b = a(10);
-console.log(b);
-console.log(z);
+var e = d(10);
+console.log(e);
+console.log(c);
