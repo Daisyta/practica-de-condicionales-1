@@ -1,7 +1,5 @@
-function a(n) {
-    console.log('n es', n);
-    y = n*2;
-    return y;
-}
-var x = a(3) + a(5);
-console.log('x es', x);
+function x(num1, num2) {  
+    return num1+num2;
+ }
+ console.log(x(2,3))
+ console.log(x(3,5))
