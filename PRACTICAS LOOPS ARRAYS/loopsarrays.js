@@ -1,5 +1,5 @@
-var t = [];
-for (var u = 0; u < 4; u++) {
-    t.push(u);
+var v = [1,2,3,4,5];
+for (var w = 0; w < v.length; w++) {
+    v.pop();
 }
-console.log(t);
+console.log(v);
