@@ -1,7 +1,7 @@
-var p = [-1,0,5,-3,2];
-for (var q = 0; q < p.length; q++) {
-    if (p[q] < 0) {
-        p[q] = "Dojo";
+var r = [-1,0,5,-3,2];
+for (var s = 0; s < r.length; s++) {
+    if (r[s] > 0) {
+        r[s] = r[s] * r[s];
     }
 }
-console.log(p);
+console.log(r);
