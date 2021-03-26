@@ -1,6 +1,7 @@
-function y(num1, num2) {
-    console.log(num1);   
-    return num1+num2;
- }
- console.log(y(2,3))
- console.log(y(3,5))
+function z(a,b) {
+    var c = a + b;
+    console.log('c es', c);
+    return c;
+}
+var x = z(2,3) + z(3,5);
+console.log('x es', x);
