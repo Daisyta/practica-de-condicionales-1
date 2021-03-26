@@ -1,9 +1,7 @@
-var c = 15;
-console.log(c);
-function d(c){
-   console.log(c);   
-   return c*2;
+function a(n) {
+    console.log('n es', n);
+    y = n*2;
+    return y;
 }
-var e = d(10);
-console.log(e);
-console.log(c);
+var x = a(3) + a(5);
+console.log('x es', x);
