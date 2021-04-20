@@ -1,11 +1,8 @@
-function printSum(x) {
+function printSumArray(x) {
   var sum = 0;
- for (var i=0; i<=255;i++){
-      console.log (i);
-      sum=sum+i; 
-      console.log(sum)
+  for (var i = 0; i < x.length; i++) {
+  console.log(x)
+  }
+  return sum;
 }
-  return sum; 
-}
-y = printSum(255) ;
-console.log(y);
+console.log( printSumArray([1,2,3]) ); // debe imprimir 6
