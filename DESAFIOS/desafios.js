@@ -1,8 +1,8 @@
-function printSumArray(x) {
-  var sum = 0;
-  for (var i = 0; i < x.length; i++) {
-  console.log(x)
-  }
-  return sum;
-}
-console.log( printSumArray([1,2,3]) ); // debe imprimir 6
+function mayorElem(x) {
+  var mayorHastaAhora = x[0];
+ for (var i=0;i<x.length;i++){
+   if (x[i]>x[0]){
+     mayorHastaAhora=x[i];}}
+  return mayorHastaAhora;    
+ }
+console.log( mayorElem([8,3,11,2,-8]) ); // debe imprimir 11
